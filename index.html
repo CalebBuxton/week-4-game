@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+
+        <title></title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		
+
+
+    </head>
+    <body>
+
+	<div id="header">
+		<h1>CrystalsCollector!</h1>
+	</div>
+
+	<div id="instructions">
+		<ul>
+			<li>You will be given a random number at the strart of the game.</li>
+			<li> </li>
+			<li>There are four srystals below. By clicking on a crystal ayou will add a specific amount of points to your total score.</li>
+			<li> </li>
+			<li>you win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</li>
+			<li> </li>
+			<li>The value of each crystal is hidden from you until you click on it.</li>
+			<li> </li>
+			<li>Each time when the game starts, the game will change the values of each crystal</li>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</ul>
+	</div>
+
+<div id="gameArea">
+	<div id="randomNumberArea"><h1 id="randomNumber">5</h1></div>
+
+	<div id="scoreBoard">
+	<p id="result"></p>
+	<p>Wins: <span id="wins">0</span></p>
+	<p>Losses: <span id="losses">0</span></p>
+	</div>
+</div>
+
+
+
+<div id="gemArea">
+	<img src="./assets/images/diamond.jpeg" class="gem">
+	<img src="./assets/images/ruby.png" class="gem">
+	<img src="./assets/images/emerald.png" class="gem">
+	<img src="./assets/images/saph.png" class="gem">
+</div>
+
+<div id="scoreArea">
+	<h3>Your Total Score Is:</h3>
+	<h1 id="playerScore">0</h1>
+</div>
+
+        <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    </body>
+</html>

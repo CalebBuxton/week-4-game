@@ -1,0 +1,69 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: url("../images/bg.jpg") no-repeat fixed left;
+/*	background-size: 100%;*/
+	margin: 0;
+}
+#header {
+	width: 100%;
+	background: orange;
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+}
+
+#instructions {
+	background: #FF0;
+	color: green;
+	width: 40%;
+}
+
+#instructions ul{
+	list-style: none;
+	padding: 10px;
+}
+
+#instructions ul li{
+	margin: 20px 0;
+	font-weight: bold;
+}
+
+#gameArea {
+	display: inline-block;
+	width: 30%;
+}
+
+
+#randomNumberArea {
+	background: #7CFC00;
+	width: 65%;
+	color: purple;
+	padding: 10px;
+	height: 100%;
+	float: left;
+/*	margin-right: 10px;
+*/}
+
+#scoreBoard {
+	float: right;
+	background: #0FF;
+	width: 25%;
+	height: 100px;
+	padding-left: 5px;
+	font-size: 14px;
+}
+
+.gem {
+	width: 60px;
+	height: 60px;
+	background: white;
+	padding: 20px;
+	margin: 5px;
+}
+
+#scoreArea {
+	background: #228B22;
+	color: white;
+	width: 30%;
+}
